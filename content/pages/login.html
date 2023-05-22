@@ -1,0 +1,104 @@
+<html lang="en-US">
+    <head>
+        <title>Arrit | Mark Deckrent's Furniture Showcase | Log-In</title>
+        <meta charset="UTF-8">
+        <link rel="icon" href="../branding/icon_holo.png" type="image/x-icon"/>
+        <!--Responsiveness Meta Tag-->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!--Bootstrap 5.0.2-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <!--Post Style And Script-->
+        <link rel="stylesheet" href="../style/main.css">
+        <script src="../script/main.js"></script>
+    </head>
+    <body style="background-repeat: no-repeat;">
+        <!--Navbar Start-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="navbar_content">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="../../index.html">
+                    <img style="width: 130px;" src="../branding/wide_logo_holo.png">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarText">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="../../index.html">Home</a>
+                        </li>
+                        <hr style="border: 1px solid aliceblue">
+                        <li class="nav-item">
+                            <a class="nav-link" href="../pages/browse.html">Browse</a>
+                        </li>
+                        <hr style="border: 1px solid aliceblue">
+                        <li class="nav-item">
+                            <a class="nav-link" href="../pages/catalogue.html">Catalogue</a>
+                        </li>
+                        <hr style="border: 1px solid aliceblue">
+                        <li class="nav-item">
+                            <a class="nav-link" class="nav-link" href="../pages/about.html">About</a>
+                        </li>
+                        <hr style="border: 1px solid aliceblue">
+                        <li class="nav-item">
+                            <a class="nav-link" href="../pages/contact.html">Contact</a>
+                        </li>
+                        <hr style="border: 1px solid aliceblue">
+                        <li onclick="auction_router_up()" class="nav-item">
+                            <a class="nav-link" href="#">Auction House</a>
+                        </li>
+                        <hr style="border: 1px solid aliceblue">
+                    </ul>
+                    <span style="margin-left: 39.5%;" class="navbar-text">
+                        <button onclick="login_router_up()" type="button" class="btn btn-outline-info">
+                            <p style="display: inline;">
+                                Log-In <img style="width: 20px; margin-bottom: 3px;" src="../general/login.png">
+                            </p>
+                        </button>
+                    </span>
+                </div>
+            </div>
+        </nav>
+        <!--Navbar End-->
+        <!--Content Start-->
+        <div style="text-align: center;" class="container-fluid">
+            <div class="container" id="login">
+                <h1 style="margin-bottom: 30px; margin-top: 40px;">Log-In</h1>
+                <center><hr style="border: 1px solid black; width: 75%;"></center>
+                <form class="row">
+                    <div style="margin-bottom: 40px; margin-top: 10px;" class="row">
+                        <div class="col">
+                            <img style="width: 50px; height: 50px; margin-right: -20px;" src="../general/user.png">
+                        </div>
+                        <div class="col">
+                            <input style="margin-left: -30px; margin-top: 5px;" type="text" class="form-control" id="username0" placeholder="Username">
+                        </div>
+                    </div>
+                    <div style="margin-bottom: 10px;" class="row">
+                        <div class="col">
+                            <img style="width: 50px; height: 50px; margin-right: -20px;" src="../general/key.png">
+                        </div>
+                        <div class="col">
+                            <input style="margin-left: -30px; margin-top: 5px;" type="password" class="form-control" id="password0" placeholder="Password">
+                        </div>
+                    </div>
+                    <center><hr style="border: 1px solid black; width: 75%;"></center>
+                    <div style="margin-bottom: 5px;" class="row">
+                        <div class="col">
+                            <button style="margin-left: 175px;" type="submit" class="btn btn-primary mb-3">Submit</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <!--Content End-->
+        <!--Footer Start-->
+        <div style="text-align: center;" class="container-fluid" id="footer_content">
+            <p style="color: lime; display: inline;">&copy; 1983
+                <p onclick="arrit()" style="color: lime; display: inline;">arrit.inc</p>
+                <button onclick="legal_router_up()" style="background-color: #212529; border: 1px solid #212529; margin-bottom: 3px; margin-left: 2px; display: inline;" type="button" class="btn btn-secondary">Legal</button>
+            </p>
+        </div>
+        <!--Footer End-->
+    </body>
+</html>

@@ -1,0 +1,88 @@
+<html lang="en-US">
+    <head>
+        <title>Arrit | Mark Deckrent's Furniture Showcase | About</title>
+        <meta charset="UTF-8">
+        <link rel="icon" href="../branding/icon_holo.png" type="image/x-icon"/>
+        <!--Responsiveness Meta Tag-->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!--Bootstrap 5.0.2-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <!--Post Style And Script-->
+        <link rel="stylesheet" href="../style/main.css">
+        <script src="../script/main.js"></script>
+    </head>
+    <body style="background-repeat: no-repeat;">
+        <!--Navbar Start-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="navbar_content">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="../../index.html">
+                    <img style="width: 130px;" src="../branding/wide_logo_holo.png">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarText">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="../../index.html">Home</a>
+                        </li>
+                        <hr style="border: 1px solid aliceblue">
+                        <li class="nav-item">
+                            <a class="nav-link" href="../pages/browse.html">Browse</a>
+                        </li>
+                        <hr style="border: 1px solid aliceblue">
+                        <li class="nav-item">
+                            <a class="nav-link" href="../pages/catalogue.html">Catalogue</a>
+                        </li>
+                        <hr style="border: 1px solid aliceblue">
+                        <li class="nav-item">
+                            <a class="nav-link active" class="nav-link" href="../pages/about.html">About</a>
+                        </li>
+                        <hr style="border: 1px solid aliceblue">
+                        <li class="nav-item">
+                            <a class="nav-link" href="../pages/contact.html">Contact</a>
+                        </li>
+                        <hr style="border: 1px solid aliceblue">
+                        <li onclick="auction_router_up()" class="nav-item">
+                            <a class="nav-link" href="#">Auction House</a>
+                        </li>
+                        <hr style="border: 1px solid aliceblue">
+                    </ul>
+                    <span style="margin-left: 39.5%;" class="navbar-text">
+                        <button onclick="login_router_up()" type="button" class="btn btn-outline-info">
+                            <p style="display: inline;">
+                                Log-In <img style="width: 20px; margin-bottom: 3px;" src="../general/login.png">
+                            </p>
+                        </button>
+                    </span>
+                </div>
+            </div>
+        </nav>
+        <!--Navbar End-->
+        <!--Content Start-->
+        <div style="text-align: center; border-radius: 10px;" class="container" id="main_content">
+            <h1 style="margin-top: 40px; color:#bd0000; text-shadow: 20px 20px 20px black;">Welcome to Arrit Mark Deckrent's Furniture Company, where we bring style and comfort to your living space.</h1>
+            <div class="row">
+                <div style="margin: 50px;" class="col">
+                    <p style="text-align: justify; font-size: 15px; text-shadow: 20px 20px 20px black;">Our company was founded by Arrit Mark Deckrent, who has been in the furniture industry for over 25 years. With his expertise and passion for design, he established our company with the goal of creating high-quality and affordable furniture pieces for everyone.</p>
+                    <p style="text-align: justify; font-size: 15px; text-shadow: 20px 20px 20px black;">At Arrit Mark Deckrent's Furniture Company, we take pride in our commitment to using only the finest materials in all of our products. From our sturdy hardwood frames to our plush upholstery, we ensure that every piece of furniture we create is built to last.</p>
+                    <p style="text-align: justify; font-size: 15px; text-shadow: 20px 20px 20px black;">Our collection includes a wide variety of sofas, chairs, tables, and other furnishings that can be customized to suit your personal taste and style. Whether you prefer classic designs or contemporary pieces, our team of experienced craftsmen can create the perfect furniture for you.</p>
+                    <p style="text-align: justify; font-size: 15px; text-shadow: 20px 20px 20px black;">We also offer a range of services to help you get the most out of your furniture. Our in-house design team can help you select the right pieces to create the perfect look for your home, while our delivery and installation team ensures that your furniture is set up and ready to use.</p>
+                </div>
+                <div style="margin: 50px;" class="col">
+                    <img style="width: 450px; border: 3px dashed #bd0000; margin: auto; background-color: rgba(0, 149, 255, 0.1); padding: 10px; box-shadow: 100px 50px 400px rgb(39, 39, 39);" src="../branding/logo/logo2.png">
+                </div>
+            </div>
+        </div>
+        <!--Content End-->
+        <!--Footer Start-->
+        <div style="text-align: center;" class="container-fluid" id="footer_content">
+            <p style="color: lime; display: inline;">&copy; 1983
+                <p onclick="arrit()" style="color: lime; display: inline;">arrit.inc</p>
+                <button onclick="legal_router_up()" style="background-color: #212529; border: 1px solid #212529; margin-bottom: 3px; margin-left: 2px; display: inline;" type="button" class="btn btn-secondary">Legal</button>
+            </p>
+        </div>
+        <!--Footer End-->
+    </body>
+</html>

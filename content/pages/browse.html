@@ -1,0 +1,647 @@
+<html lang="en-US">
+    <head>
+        <title>Arrit | Mark Deckrent's Furniture Showcase | Browse</title>
+        <meta charset="UTF-8">
+        <link rel="icon" href="../branding/icon_holo.png" type="image/x-icon"/>
+        <!--Responsiveness Meta Tag-->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!--Bootstrap 5.0.2-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <!--Post Style And Script-->
+        <link rel="stylesheet" href="../style/main.css">
+        <script src="../script/main.js"></script>
+    </head>
+    <body style="background-repeat: no-repeat;">
+        <!--Navbar Start-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="navbar_content">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="../../index.html">
+                    <img style="width: 130px;" src="../branding/wide_logo_holo.png">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarText">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="../../index.html">Home</a>
+                        </li>
+                        <hr style="border: 1px solid aliceblue">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="../pages/browse.html">Browse</a>
+                        </li>
+                        <hr style="border: 1px solid aliceblue">
+                        <li class="nav-item">
+                            <a class="nav-link" href="../pages/catalogue.html">Catalogue</a>
+                        </li>
+                        <hr style="border: 1px solid aliceblue">
+                        <li class="nav-item">
+                            <a class="nav-link" class="nav-link" href="../pages/about.html">About</a>
+                        </li>
+                        <hr style="border: 1px solid aliceblue">
+                        <li class="nav-item">
+                            <a class="nav-link" href="../pages/contact.html">Contact</a>
+                        </li>
+                        <hr style="border: 1px solid aliceblue">
+                        <li onclick="auction_router_up()" class="nav-item">
+                            <a class="nav-link" href="#">Auction House</a>
+                        </li>
+                        <hr style="border: 1px solid aliceblue">
+                    </ul>
+                    <span style="margin-left: 39.5%;" class="navbar-text">
+                        <button onclick="login_router_up()" type="button" class="btn btn-outline-info">
+                            <p style="display: inline;">
+                                Log-In <img style="width: 20px; margin-bottom: 3px;" src="../general/login.png">
+                            </p>
+                        </button>
+                    </span>
+                </div>
+            </div>
+        </nav>
+        <!--Navbar End-->
+        <!--Content Start-->
+        <div style="text-align: center;" class="container-fluid">
+            <div class="row">
+                <div class="col-9">
+                    <hr style="border:2px solid black;">
+                    <div style="text-align: center;" class="container-fluid">
+                        <div class="collapse" id="navbarToggleExternalContent3">
+                            <div class="bg-dark p-4">
+                                <h5 class="text-white h4">Bicycles</h5>
+                                <div class="container">
+                                    <div style="margin-top: 20px; margin-bottom: 20px;" class="row">
+                                        <div class="col">
+                                            <div class="card" style="width: 18rem; margin: auto;">
+                                                <img style="border: 1px solid #212529;" src="../product/bicycle/1.png">
+                                                <div class="card-body">
+                                                    <h5 class="card-title">Velovity XLR-5</h5>
+                                                    <a onclick="auction_router_up()" href="#" class="btn btn-primary">Auction House</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col">
+                                            <div class="card" style="width: 18rem; margin: auto;">
+                                                <img style="border: 1px solid #212529;" src="../product/bicycle/2.png">
+                                                <div class="card-body">
+                                                    <h5 class="card-title">PedalPulse RZ-8</h5>
+                                                    <a onclick="auction_router_up()" href="#" class="btn btn-primary">Auction House</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div style="margin-top: 20px; margin-bottom: 20px;" class="row">
+                                        <div class="col">
+                                            <div class="card" style="width: 18rem; margin: auto;">
+                                                <img style="border: 1px solid #212529;" src="../product/bicycle/3.png">
+                                                <div class="card-body">
+                                                    <h5 class="card-title">PedalPulse GTM-2</h5>
+                                                    <a onclick="auction_router_up()" href="#" class="btn btn-primary">Auction House</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col">
+                                            <div class="card" style="width: 18rem; margin: auto;">
+                                                <img style="border: 1px solid #212529;" src="../product/bicycle/4.png">
+                                                <div class="card-body">
+                                                    <h5 class="card-title">ZenRider FZ-9</h5>
+                                                    <a onclick="auction_router_up()" href="#" class="btn btn-primary">Auction House</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <nav class="navbar navbar-dark bg-dark">
+                            <div class="container-fluid">
+                                <p style="font-size: 20px; margin-top: 15px; color: azure;">Bicycles</p>
+                                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent3" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                                    <span style="background-image: url(../product/bicycle/3.png); width: 100px; height: 80px;" class="navbar-toggler-icon"></span>
+                                </button>
+                            </div>
+                        </nav>
+                    </div>
+                    <hr style="border:2px solid black;">
+                    <div class="row">
+                        <div style="margin: 5px;" class="col">
+                            <div class="card" style="width: 18rem; margin: auto;">
+                                <img style="border: 1px solid #212529;" src="../product/bathroom_cabinet/2.png">
+                                <div class="card-body">
+                                    <h5 class="card-title">ModaFurnish RC18</h5>
+                                    <a onclick="auction_router_up()" href="#" class="btn btn-primary">Auction House</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div style="margin: 5px;" class="col">
+                            <div class="card" style="width: 18rem; margin: auto;">
+                                <img style="border: 1px solid #212529;" src="../product/ceiling_fan/4.png">
+                                <div class="card-body">
+                                    <h5 class="card-title">Century Maven FF4500</h5>
+                                    <a onclick="auction_router_up()" href="#" class="btn btn-primary">Auction House</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div style="margin: 5px;" class="col">
+                            <div class="card" style="width: 18rem; margin: auto;">
+                                <img style="border: 1px solid #212529;" src="../product/guitar/2.png">
+                                <div class="card-body">
+                                    <h5 class="card-title">Luminor Living CA771</h5>
+                                    <a onclick="auction_router_up()" href="#" class="btn btn-primary">Auction House</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div style="margin: 5px;" class="col">
+                            <div class="card" style="width: 18rem; margin: auto;">
+                                <img style="border: 1px solid #212529;" src="../product/window/4.png">
+                                <div class="card-body">
+                                    <h5 class="card-title">Coastal Charm ZG180</h5>
+                                    <a onclick="auction_router_up()" href="#" class="btn btn-primary">Auction House</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div style="margin: 5px;" class="col">
+                            <div class="card" style="width: 18rem; margin: auto;">
+                                <img style="border: 1px solid #212529;" src="../product/fridge/1.png">
+                                <div class="card-body">
+                                    <h5 class="card-title">ModaFurnish BC9970</h5>
+                                    <a onclick="auction_router_up()" href="#" class="btn btn-primary">Auction House</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div style="margin: 5px;" class="col">
+                            <div class="card" style="width: 18rem; margin: auto;">
+                                <img style="border: 1px solid #212529;" src="../product/fridge/3.png">
+                                <div class="card-body">
+                                    <h5 class="card-title">ModaFurnish BC9500</h5>
+                                    <a onclick="auction_router_up()" href="#" class="btn btn-primary">Auction House</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr style="border:2px solid black;">
+                    <div style="text-align: center;" class="container-fluid">
+                        <div class="collapse" id="navbarToggleExternalContent8">
+                            <div class="bg-dark p-4">
+                                <h5 class="text-white h4">Clocks</h5>
+                                <div class="container">
+                                    <div style="margin-top: 20px; margin-bottom: 20px;" class="row">
+                                        <div class="col">
+                                            <div class="card" style="width: 18rem; margin: auto;">
+                                                <img style="border: 1px solid #212529;" src="../product/clock/1-1.png">
+                                                <div class="card-body">
+                                                    <h5 class="card-title">Coastal Charm TT940</h5>
+                                                    <a onclick="auction_router_up()" href="#" class="btn btn-primary">Auction House</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col">
+                                            <div class="card" style="width: 18rem; margin: auto;">
+                                                <img style="border: 1px solid #212529;" src="../product/clock/1-2.png">
+                                                <div class="card-body">
+                                                    <h5 class="card-title">Willow Wood AA11</h5>
+                                                    <a onclick="auction_router_up()" href="#" class="btn btn-primary">Auction House</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div style="margin-top: 20px; margin-bottom: 20px;" class="row">
+                                        <div class="col">
+                                            <div class="card" style="width: 18rem; margin: auto;">
+                                                <img style="border: 1px solid #212529;" src="../product/clock/1-3.png">
+                                                <div class="card-body">
+                                                    <h5 class="card-title">Coastal Charm TT950</h5>
+                                                    <a onclick="auction_router_up()" href="#" class="btn btn-primary">Auction House</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col">
+                                            <div class="card" style="width: 18rem; margin: auto;">
+                                                <img style="border: 1px solid #212529;" src="../product/clock/1-4.png">
+                                                <div class="card-body">
+                                                    <h5 class="card-title">Century Maven VC620</h5>
+                                                    <a onclick="auction_router_up()" href="#" class="btn btn-primary">Auction House</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div style="margin-top: 20px; margin-bottom: 20px;" class="row">
+                                        <div class="col">
+                                            <div class="card" style="width: 18rem; margin: auto;">
+                                                <img style="border: 1px solid #212529;" src="../product/clock/2-1.png">
+                                                <div class="card-body">
+                                                    <h5 class="card-title">Willow Wood AA110</h5>
+                                                    <a onclick="auction_router_up()" href="#" class="btn btn-primary">Auction House</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col">
+                                            <div class="card" style="width: 18rem; margin: auto;">
+                                                <img style="border: 1px solid #212529;" src="../product/clock/2-2.png">
+                                                <div class="card-body">
+                                                    <h5 class="card-title">ModaFurnish MA880</h5>
+                                                    <a onclick="auction_router_up()" href="#" class="btn btn-primary">Auction House</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div style="margin-top: 20px; margin-bottom: 20px;" class="row">
+                                        <div class="col">
+                                            <div class="card" style="width: 18rem; margin: auto;">
+                                                <img style="border: 1px solid #212529;" src="../product/clock/2-3.png">
+                                                <div class="card-body">
+                                                    <h5 class="card-title">Willow Wood AA1110</h5>
+                                                    <a onclick="auction_router_up()" href="#" class="btn btn-primary">Auction House</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col">
+                                            <div class="card" style="width: 18rem; margin: auto;">
+                                                <img style="border: 1px solid #212529;" src="../product/clock/2-4.png">
+                                                <div class="card-body">
+                                                    <h5 class="card-title">Century Maven EE550</h5>
+                                                    <a onclick="auction_router_up()" href="#" class="btn btn-primary">Auction House</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <nav class="navbar navbar-dark bg-dark">
+                            <div class="container-fluid">
+                                <p style="font-size: 20px; margin-top: 15px; color: azure;">Clocks</p>
+                                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent8" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                                    <span style="background-image: url(../product/clock/1-4.png); width: 100px; height: 80px;" class="navbar-toggler-icon"></span>
+                                </button>
+                            </div>
+                        </nav>
+                    </div>
+                    <hr style="border:2px solid black;">
+                    <div class="row">
+                        <div style="margin: 5px;" class="col">
+                            <div class="card" style="width: 18rem; margin: auto;">
+                                <img style="border: 1px solid #212529;" src="../product/tent/2.png">
+                                <div class="card-body">
+                                    <h5 class="card-title">Green Living OO880</h5>
+                                    <a onclick="auction_router_up()" href="#" class="btn btn-primary">Auction House</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div style="margin: 5px;" class="col">
+                            <div class="card" style="width: 18rem; margin: auto;">
+                                <img style="border: 1px solid #212529;" src="../product/guitar/4.png">
+                                <div class="card-body">
+                                    <h5 class="card-title">Luminor Living CA777</h5>
+                                    <a onclick="auction_router_up()" href="#" class="btn btn-primary">Auction House</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div style="margin: 5px;" class="col">
+                            <div class="card" style="width: 18rem; margin: auto;">
+                                <img style="border: 1px solid #212529;" src="../product/tent/3.png">
+                                <div class="card-body">
+                                    <h5 class="card-title">Green Living OO820</h5>
+                                    <a onclick="auction_router_up()" href="#" class="btn btn-primary">Auction House</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div style="margin: 5px;" class="col">
+                            <div class="card" style="width: 18rem; margin: auto;">
+                                <img style="border: 1px solid #212529;" src="../product/sofa/2.png">
+                                <div class="card-body">
+                                    <h5 class="card-title">Century Maven CC740</h5>
+                                    <a onclick="auction_router_up()" href="#" class="btn btn-primary">Auction House</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div style="margin: 5px;" class="col">
+                            <div class="card" style="width: 18rem; margin: auto;">
+                                <img style="border: 1px solid #212529;" src="../product/sofa/4.png">
+                                <div class="card-body">
+                                    <h5 class="card-title">Willow Wood SS350</h5>
+                                    <a onclick="auction_router_up()" href="#" class="btn btn-primary">Auction House</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div style="margin: 5px;" class="col">
+                            <div class="card" style="width: 18rem; margin: auto;">
+                                <img style="border: 1px solid #212529;" src="../product/lounge_chair/3.png">
+                                <div class="card-body">
+                                    <h5 class="card-title">Boho Chic ZR200</h5>
+                                    <a onclick="auction_router_up()" href="#" class="btn btn-primary">Auction House</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr style="border:2px solid black;">
+                    <div style="text-align: center;" class="container-fluid">
+                        <div class="collapse" id="navbarToggleExternalContent14">
+                            <div class="bg-dark p-4">
+                                <h5 class="text-white h4">Lanterns</h5>
+                                <div class="container">
+                                    <div style="margin-top: 20px; margin-bottom: 20px;" class="row">
+                                        <div class="col">
+                                            <div class="card" style="width: 18rem; margin: auto;">
+                                                <img style="border: 1px solid #212529;" src="../product/lantern/1.png">
+                                                <div class="card-body">
+                                                    <h5 class="card-title">Luminor Living LL550</h5>
+                                                    <a onclick="auction_router_up()" href="#" class="btn btn-primary">Auction House</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col">
+                                            <div class="card" style="width: 18rem; margin: auto;">
+                                                <img style="border: 1px solid #212529;" src="../product/lantern/2.png">
+                                                <div class="card-body">
+                                                    <h5 class="card-title">Rustic Retreat VR370</h5>
+                                                    <a onclick="auction_router_up()" href="#" class="btn btn-primary">Auction House</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div style="margin-top: 20px; margin-bottom: 20px;" class="row">
+                                        <div class="col">
+                                            <div class="card" style="width: 18rem; margin: auto;">
+                                                <img style="border: 1px solid #212529;" src="../product/lantern/3.png">
+                                                <div class="card-body">
+                                                    <h5 class="card-title">Green Living SS220</h5>
+                                                    <a onclick="auction_router_up()" href="#" class="btn btn-primary">Auction House</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col">
+                                            <div class="card" style="width: 18rem; margin: auto;">
+                                                <img style="border: 1px solid #212529;" src="../product/lantern/4.png">
+                                                <div class="card-body">
+                                                    <h5 class="card-title">Rustic Retreat VR470</h5>
+                                                    <a onclick="auction_router_up()" href="#" class="btn btn-primary">Auction House</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <nav class="navbar navbar-dark bg-dark">
+                            <div class="container-fluid">
+                                <p style="font-size: 20px; margin-top: 15px; color: azure;">Lanterns</p>
+                                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent14" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                                    <span style="background-image: url(../product/lantern/3.png); width: 100px; height: 80px;" class="navbar-toggler-icon"></span>
+                                </button>
+                            </div>
+                        </nav>
+                    </div>
+                    <hr style="border:2px solid black;">
+                    <div class="row">
+                        <div style="margin: 5px;" class="col">
+                            <div class="card" style="width: 18rem; margin: auto;">
+                                <img style="border: 1px solid #212529;" src="../product/rug/2-4.png">
+                                <div class="card-body">
+                                    <h5 class="card-title">Rustic Retreat FF950</h5>
+                                    <a onclick="auction_router_up()" href="#" class="btn btn-primary">Auction House</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div style="margin: 5px;" class="col">
+                            <div class="card" style="width: 18rem; margin: auto;">
+                                <img style="border: 1px solid #212529;" src="../product/rug/1-4.png">
+                                <div class="card-body">
+                                    <h5 class="card-title">Rustic Retreat FF870</h5>
+                                    <a onclick="auction_router_up()" href="#" class="btn btn-primary">Auction House</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div style="margin: 5px;" class="col">
+                            <div class="card" style="width: 18rem; margin: auto;">
+                                <img style="border: 1px solid #212529;" src="../product/rug/1-1.png">
+                                <div class="card-body">
+                                    <h5 class="card-title">Simply Scandi CS230</h5>
+                                    <a onclick="auction_router_up()" href="#" class="btn btn-primary">Auction House</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div style="margin: 5px;" class="col">
+                            <div class="card" style="width: 18rem; margin: auto;">
+                                <img style="border: 1px solid #212529;" src="../product/rug/1-2.png">
+                                <div class="card-body">
+                                    <h5 class="card-title">Rustic Retreat FF860</h5>
+                                    <a onclick="auction_router_up()" href="#" class="btn btn-primary">Auction House</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div style="margin: 5px;" class="col">
+                            <div class="card" style="width: 18rem; margin: auto;">
+                                <img style="border: 1px solid #212529;" src="../product/pear_armchair/2.png">
+                                <div class="card-body">
+                                    <h5 class="card-title">Green Living CC4400</h5>
+                                    <a onclick="auction_router_up()" href="#" class="btn btn-primary">Auction House</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div style="margin: 5px;" class="col">
+                            <div class="card" style="width: 18rem; margin: auto;">
+                                <img style="border: 1px solid #212529;" src="../product/pear_armchair/1.png">
+                                <div class="card-body">
+                                    <h5 class="card-title">Simply Scandi PP5500</h5>
+                                    <a onclick="auction_router_up()" href="#" class="btn btn-primary">Auction House</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr style="border:2px solid black;">
+                    <div style="text-align: center;" class="container-fluid">
+                        <div class="collapse" id="navbarToggleExternalContent20">
+                            <div class="bg-dark p-4">
+                                <h5 class="text-white h4">Paintings</h5>
+                                <div class="container">
+                                    <div class="row">
+                                        <div style="margin: 5px;" clas="col">
+                                            <div class="card" style="width: 25rem; margin: auto;">
+                                                <img style="border: 1px solid #212529;" src="../product/painting/cat_looking_at_sky_sitting_on_a_hill_desert_no_buildings_other_than_a_castle_on_the_center_and_a_road_to_it1.png">
+                                                <div class="card-body">
+                                                    <h5 class="card-title">Cat Looking At Sky Sitting On A Hill</h5>
+                                                    <a onclick="auction_router_up()" href="#" class="btn btn-primary">Auction House</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div style="margin: 5px;" clas="col">
+                                            <div class="card" style="width: 25rem; margin: auto;">
+                                                <img style="border: 1px solid #212529;" src="../product/painting/cat_looking_at_sky_sitting_on_a_hill_desert_no_buildings_other_than_a_castle_on_the_center_and_a_road_to_it2.png">
+                                                <div class="card-body">
+                                                    <h5 class="card-title">Cat Looking At Sky Sitting On A Hill</h5>
+                                                    <a onclick="auction_router_up()" href="#" class="btn btn-primary">Auction House</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div style="margin: 5px;" clas="col">
+                                            <div class="card" style="width: 25rem; margin: auto;">
+                                                <img style="border: 1px solid #212529;" src="../product/painting/cat_looking_at_sky_sitting_on_a_hill_desert_no_buildings_other_than_a_castle_on_the_center_and_a_road_to_it3.png">
+                                                <div class="card-body">
+                                                    <h5 class="card-title">Cat Looking At Sky Sitting On A Hill</h5>
+                                                    <a onclick="auction_router_up()" href="#" class="btn btn-primary">Auction House</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div style="margin: 5px;" clas="col">
+                                            <div class="card" style="width: 25rem; margin: auto;">
+                                                <img style="border: 1px solid #212529;" src="../product/painting/cat_looking_at_sky_sitting_on_a_hill_desert_no_buildings_other_than_a_castle_on_the_center_and_a_road_to_it4.png">
+                                                <div class="card-body">
+                                                    <h5 class="card-title">Cat Looking At Sky Sitting On A Hill</h5>
+                                                    <a onclick="auction_router_up()" href="#" class="btn btn-primary">Auction House</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div style="margin: 5px;" clas="col">
+                                            <div class="card" style="width: 25rem; margin: auto;">
+                                                <img style="border: 1px solid #212529;" src="../product/painting/cat_looking_at_sky_sitting_on_a_hill_desert_no_buildings_other_than_a_castle_on_the_center_and_a_road_to_it5.png">
+                                                <div class="card-body">
+                                                    <h5 class="card-title">Cat Looking At Sky Sitting On A Hill</h5>
+                                                    <a onclick="auction_router_up()" href="#" class="btn btn-primary">Auction House</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div style="margin: 5px;" clas="col">
+                                            <div class="card" style="width: 25rem; margin: auto;">
+                                                <img style="border: 1px solid #212529;" src="../product/painting/distant_galaxy_that_has_alien_spaceships_space_elevators_asteroid_miners_oil_painting_creative1.png">
+                                                <div class="card-body">
+                                                    <h5 class="card-title">Distant Galaxy With Aliens</h5>
+                                                    <a onclick="auction_router_up()" href="#" class="btn btn-primary">Auction House</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div style="margin: 5px;" clas="col">
+                                            <div class="card" style="width: 25rem; margin: auto;">
+                                                <img style="border: 1px solid #212529;" src="../product/painting/distant_galaxy_that_has_alien_spaceships_space_elevators_asteroid_miners_oil_painting_creative2.png">
+                                                <div class="card-body">
+                                                    <h5 class="card-title">Distant Galaxy With Aliens</h5>
+                                                    <a onclick="auction_router_up()" href="#" class="btn btn-primary">Auction House</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div style="margin: 5px;" clas="col">
+                                            <div class="card" style="width: 25rem; margin: auto;">
+                                                <img style="border: 1px solid #212529;" src="../product/painting/red_hair_white_girl_gray_eyes_dull face_pale skin_rainy_london_in the_background_oil_painting.png">
+                                                <div class="card-body">
+                                                    <h5 class="card-title">Red Hair In London</h5>
+                                                    <a onclick="auction_router_up()" href="#" class="btn btn-primary">Auction House</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div style="margin: 5px;" clas="col">
+                                            <div class="card" style="width: 25rem; margin: auto;">
+                                                <img style="border: 1px solid #212529;" src="../product/painting/red_liquid_monster_attacking_white_girl_creative_theme_is_nothingness.png">
+                                                <div class="card-body">
+                                                    <h5 class="card-title">Liquid Monster Attack</h5>
+                                                    <a onclick="auction_router_up()" href="#" class="btn btn-primary">Auction House</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div style="margin: 5px;" clas="col">
+                                            <div class="card" style="width: 25rem; margin: auto;">
+                                                <img style="border: 1px solid #212529;" src="../product/painting/vintage_girl_with_red_hair_london_background_oil_painting.png">
+                                                <div class="card-body">
+                                                    <h5 class="card-title">Vintage London</h5>
+                                                    <a onclick="auction_router_up()" href="#" class="btn btn-primary">Auction House</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div style="margin: 5px;" clas="col">
+                                            <div class="card" style="width: 25rem; margin: auto;">
+                                                <img style="border: 1px solid #212529;" src="../product/painting/yellow_hamster_in_playground_oil_painting_on_a_wall1.png">
+                                                <div class="card-body">
+                                                    <h5 class="card-title">Yellow Hamster In Playground</h5>
+                                                    <a onclick="auction_router_up()" href="#" class="btn btn-primary">Auction House</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div style="margin: 5px;" clas="col">
+                                            <div class="card" style="width: 25rem; margin: auto;">
+                                                <img style="border: 1px solid #212529;" src="../product/painting/yellow_hamster_in_playground_oil_painting_on_a_wall2.png">
+                                                <div class="card-body">
+                                                    <h5 class="card-title">Yellow Hamster In Playground</h5>
+                                                    <a onclick="auction_router_up()" href="#" class="btn btn-primary">Auction House</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div style="margin: 5px;" clas="col">
+                                            <div class="card" style="width: 25rem; margin: auto;">
+                                                <img style="border: 1px solid #212529;" src="../product/painting/vintage_young_lady_in_black_and_white_red_hair_and_details_has_a_necklace_letter_v_is_ruby_red_has_a_big_hat_and_eyes_covered_in_that_hat_rainy_london_in_background1.png">
+                                                <div class="card-body">
+                                                    <h5 class="card-title">Vintage London</h5>
+                                                    <a onclick="auction_router_up()" href="#" class="btn btn-primary">Auction House</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div style="margin: 5px;" clas="col">
+                                            <div class="card" style="width: 25rem; margin: auto;">
+                                                <img style="border: 1px solid #212529;" src="../product/painting/vintage_young_lady_in_black_and_white_red_hair_and_details_has_a_necklace_letter_v_is_ruby_red_has_a_big_hat_and_eyes_covered_in_that_hat_rainy_london_in_background2.png">
+                                                <div class="card-body">
+                                                    <h5 class="card-title">Vintage London</h5>
+                                                    <a onclick="auction_router_up()" href="#" class="btn btn-primary">Auction House</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div style="margin: 5px;" clas="col">
+                                            <div class="card" style="width: 25rem; margin: auto;">
+                                                <img style="border: 1px solid #212529;" src="../product/painting/vintage_young_lady_in_black_and_white_red_hair_and_details_has_a_necklace_letter_v_is_ruby_red_has_a_big_hat_and_eyes_covered_in_that_hat_rainy_london_in_background3.png">
+                                                <div class="card-body">
+                                                    <h5 class="card-title">Vintage London</h5>
+                                                    <a onclick="auction_router_up()" href="#" class="btn btn-primary">Auction House</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <nav class="navbar navbar-dark bg-dark">
+                            <div class="container-fluid">
+                                <p style="font-size: 20px; margin-top: 15px; color: azure;">Paintings</p>
+                                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent20" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                                    <span class="navbar-toggler-icon"></span>
+                                </button>
+                            </div>
+                        </nav>
+                    </div>
+                    <hr style="border:2px solid black;">
+                </div>
+                <div class="col">
+                    <img onclick="arrit()" style="height: 500px; float: right; margin: 20px;" src="../branding/banner/banner_for_furniture_company_that_is_named_arrit_mark_deckrent_with_a_robot_height3.png">
+                    <img onclick="arrit()" style="height: 500px; float: right; margin: 20px;" src="../branding/banner/banner_for_furniture_company_that_is_named_arrit_mark_deckrent_with_a_robot_height4.png">
+                    <img onclick="arrit()" style="height: 500px; float: right; margin: 20px;" src="../branding/banner/banner_for_furniture_company_that_is_named_arrit_mark_deckrent_with_a_robot_height1.png">
+                    <img onclick="arrit()" style="height: 500px; float: right; margin: 20px;" src="../branding/banner/banner_for_furniture_company_that_is_named_arrit_mark_deckrent_with_a_robot_height2.png">
+                </div>
+            </div>
+        </div>
+        <!--Content End-->
+        <!--Footer Start-->
+        <div style="text-align: center;" class="container-fluid" id="footer_content">
+            <p style="color: lime; display: inline;">&copy; 1983
+                <p onclick="arrit()" style="color: lime; display: inline;">arrit.inc</p>
+                <button onclick="legal_router_up()" style="background-color: #212529; border: 1px solid #212529; margin-bottom: 3px; margin-left: 2px; display: inline;" type="button" class="btn btn-secondary">Legal</button>
+            </p>
+        </div>
+        <!--Footer End-->
+    </body>
+</html>

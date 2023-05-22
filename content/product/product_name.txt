@@ -1,0 +1,161 @@
+bathroom cabinet{
+    1=Luminor Living AZ1100
+    2=ModaFurnish RC18
+    3=Luminor Living ZD550
+    4=Luminor Living BB420
+}
+bed{
+    1=Willow Wood DW30
+    2=Willow Wood SS55
+    3=Willow Wood CL440
+    4=ModaFurnish RR800
+}
+bicycle{
+    1=Velovity XLR-5
+    2=PedalPulse RZ-8
+    3=PedalPulse GTM-2
+    4=ZenRider FZ-9
+}
+bookshelf{
+    1=Willow Wood TL220
+    2=Coastal Charm LL88
+    3=Coastal Charm LL880
+    4=ModaFurnish IS505
+}
+cactus{
+    1=Green Living AA330
+    2=Green Living AA320
+    3=Green Living AA33
+    4=Green Living AA3300
+}
+ceiling fan{
+    1=Century Maven FF4400
+    2=ModaFurnish CD790
+    3=Coastal Charm JS11
+    4=Century Maven FF4500
+}
+chest{
+    1=Coastal Charm JB550
+    2=Century Maven EE2200
+    3=Willow Wood PP890
+    4=Willow Wood PP880
+}
+clock{
+    1=Coastal Charm TT940
+    2=Willow Wood AA11
+    3=Coastal Charm TT950
+    4=Century Maven VC620
+    5=Willow Wood AA110
+    6=ModaFurnish MA880
+    7=Willow Wood AA1110
+    8=Century Maven EE550
+}
+door{
+    1=Boho Chic SS5500
+    2=Century Maven DD33
+    3=Willow Wood RP770
+    4=Century Maven DD34
+}
+fireplace{
+    1=Green Living BB550
+    2=Coastal Charm HH88
+    3=Boho Chic FS492
+    4=Century Maven SE960
+}
+fridge{
+    1=ModaFurnish BC9970
+    2=ModaFurnish BC9900
+    3=ModaFurnish BC9500
+    4=ModaFurnish BC9980
+}
+gaming chair{
+    1=Boho Chic GM3300
+    2=Boho Chic EE770
+    3=Boho Chic EE780
+    4=Boho Chic EE800
+}
+guitar{
+    1=ModaFurnish MM550
+    2=Luminor Living CA771
+    3=Luminor Living CA770
+    4=Luminor Living CA777
+}
+lantern{
+    1=Luminor Living LL550
+    2=Rustic Retreat VR370
+    3=Green Living SS220
+    4=Rustic Retreat VR470
+}
+lounge chair{
+    1=Coastal Charm CC550
+    2=Century Maven CC770
+    3=Boho Chic ZR200
+    4=Green Living BS730
+}
+media console{
+    1=Luminor Living MS725
+    2=Boho Chic AA2200
+    3=Luminor Living MS720
+    4=Boho Chic AA2300
+}
+mirror{
+    1=Luminor Living SS530
+    2=Boho Chic GG990
+    3=Luminor Living SS540
+    4=Century Maven RR55
+}
+office chair{
+    1=Luminor Living TT550
+    2=Boho Chic WW110
+    3=Boho Chic WW120
+    4=Century Maven JL920
+}
+office desk{
+    1=Willow Wood DD330
+    2=Willow Wood DD340
+    3=Rustic Retreat PP77
+    4=Century Maven JJ920
+}
+painting{
+    //they have names
+}
+pear armchair{
+    1=Simply Scandinavian PP5500
+    2=Green Living CC4400
+    3=Willow Wood AC33
+    4=Century Maven ZP110
+}
+rug{
+    1=Simply Scandinavian CS230
+    2=Rustic Retreat FF860
+    3=Century Maven LC440
+    4=Rustic Retreat FF870
+    5=Rustic Retreat FF880
+    6=Rustic Retreat FF890
+    7=Rustic Retreat FF900
+    8=Rustic Retreat TS950
+    9=Century Maven LC444
+    10=Rustic Retreat FF990
+    11=Century Maven LC450
+    12=Rustic Retreat FF999
+}
+sofa{
+    1=Century Maven CC730
+    2=Century Maven CC740
+    3=Rustic Retreat LL770
+    4=Willow Wood SS350
+}
+tent{
+    1=Rustic Retreat TT330
+    2=Green Living OO880
+    3=Green Living OO820
+    4=Rustic Retreat TT340
+}
+window{
+    1=Coastal Charm VV550
+    2=Coastal Charm LP790
+    3=Coastal Charm LP800
+    4=Coastal Charm ZG180
+}
+
+//prompt: make up <insert_name> product names with alphanumeric --creative

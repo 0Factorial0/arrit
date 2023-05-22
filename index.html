@@ -1,0 +1,110 @@
+<html lang="en-US">
+    <head>
+        <title>Arrit | Mark Deckrent's Furniture Showcase | Home</title>
+        <meta charset="UTF-8">
+        <!--Refresh Screen Every 10 Seconds For Constant Checking-->
+        <meta http-equiv="refresh" content="10">
+        <link rel="icon" href="content/branding/icon_holo.png" type="image/x-icon"/>
+        <!--Responsiveness Meta Tag-->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!--Bootstrap 5.0.2-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <!--Post Style And Script-->
+        <link rel="stylesheet" href="content/style/main.css">
+        <script src="content/script/main.js"></script>
+    </head>
+    <body style="background-repeat: no-repeat;">
+        <!--Navbar Start-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="navbar_content">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">
+                    <img style="width: 130px;" src="content/branding/wide_logo_holo.png">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarText">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <hr style="border: 1px solid aliceblue">
+                        <li class="nav-item">
+                            <a class="nav-link" href="content/pages/browse.html">Browse</a>
+                        </li>
+                        <hr style="border: 1px solid aliceblue">
+                        <li class="nav-item">
+                            <a class="nav-link" href="content/pages/catalogue.html">Catalogue</a>
+                        </li>
+                        <hr style="border: 1px solid aliceblue">
+                        <li class="nav-item">
+                            <a class="nav-link" href="content/pages/about.html">About</a>
+                        </li>
+                        <hr style="border: 1px solid aliceblue">
+                        <li class="nav-item">
+                            <a class="nav-link" href="content/pages/contact.html">Contact</a>
+                        </li>
+                        <hr style="border: 1px solid aliceblue">
+                        <li onclick="auction_router()" class="nav-item">
+                            <a class="nav-link" href="#">Auction House</a>
+                        </li>
+                        <hr style="border: 1px solid aliceblue">
+                    </ul>
+                    <span style="margin-left: 39.5%;" class="navbar-text">
+                        <button onclick="login_router()" type="button" class="btn btn-outline-info">
+                            <p style="display: inline;">
+                                Log-In <img style="width: 20px; margin-bottom: 3px;" src="content/general/login.png">
+                            </p>
+                        </button>
+                    </span>
+                </div>
+            </div>
+        </nav>
+        <!--Navbar End-->
+        <!--Content Start-->
+        <div style="text-align: center; border-radius: 10px;" class="container" id="home_content">
+            <div style="margin-top: 15px;" class="row">
+                <div class="col">
+                    <center>
+                        <img style="width: 450px; border: 3px dashed #bd0000; margin: 20px; margin-top: 80px; background-color: rgba(0, 149, 255, 0.1); padding: 10px; box-shadow: 100px 50px 400px rgb(39, 39, 39);" src="content/branding/ai_market_logo_futuristic_that_has_robot_in_it.png">
+                    </center>
+                </div>
+                <div class="col">
+                    <h2 style="margin-top: 40px; color:#bd0000; text-shadow: 20px 20px 20px black;">Welcome To Arrit!</h2>
+                    <h3 style="margin-top: 20px; color:#bd0000; text-shadow: 20px 20px 20px black;">Discover Quality and Style in Furniture Design by 
+                        <center><hr style="width: 75%; box-shadow: 5px 2px 5px black;"></center>
+                        <center><p style="width: 38%; border-radius: 100px;"><a style="text-decoration: none; color: #ffff00; text-shadow: 5px 10px 10px black; " href="content/pages/about.html">Mark Deckrent!</a></p></center>
+                    </h3>
+                    <center><hr style="width: 75%; box-shadow: 5px 2px 5px black;"></center>
+                    <p style="text-align: justify; margin: 30px; font-size: 20px; text-shadow: 20px 20px 20px black;">Hello and welcome to Arrit, the furniture company founded by Mark Deckrent! We are thrilled to have you here and are excited to introduce you to our beautiful and stylish furniture pieces. At Arrit, we pride ourselves on creating high-quality and unique furniture that will enhance any home or office space. From sleek and modern designs to more traditional styles, our collection has something for everyone. Thank you for considering Arrit for your furniture needs, and we look forward to helping you find the perfect piece to complete your space!</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <p style="text-align: justify; margin: 30px; font-size: 20px; text-shadow: 20px 20px 20px black;">Our team of skilled craftsmen use only the finest materials and pay meticulous attention to detail to ensure that every piece is of the highest quality. We understand that furniture is not just a functional element of your space, but also a reflection of your personal style and taste. That's why we offer a wide range of customizable options to help you create a piece that is truly one-of-a-kind. Our friendly and knowledgeable staff is always available to answer any questions you may have and provide expert advice on how to choose the perfect piece for your space. We are committed to providing exceptional customer service and delivering furniture that you will love for years to come. Thank you again for choosing Arrit, we can't wait to help you transform your space with our beautiful furniture. -GPT3</p>
+                </div>
+                <div class="col">
+                    <center>
+                        <div class="card" style="width: 18rem; margin: 50px; background-color: rgba(0, 149, 255, 0.1); padding: 10px; box-shadow: 50px 50px 400px rgb(39, 39, 39);">
+                            <img style="box-shadow: 5px 5px 10px rgb(39, 39, 39);" src="content/product/bicycle/4.png">
+                            <div class="card-body">
+                                <h5 style="text-shadow: 5px 5px 10px rgb(39, 39, 39);" class="card-title">Zenrider FZ-9</h5>
+                                <a style="box-shadow: 5px 5px 20px rgb(39, 39, 39);" onclick="auction_router()" href="#" class="btn btn-primary">Auction House (2323$)</a>
+                            </div>
+                        </div>
+                    </center>
+                </div>
+            </div>
+        </div>
+        <!--Content End-->
+        <!--Footer Start-->
+        <div style="text-align: center;" class="container-fluid" id="footer_content">
+            <p style="color: lime; display: inline;">&copy; 1983
+                <p onclick="arrit()" style="color: lime; display: inline;">arrit.inc</p>
+                <button onclick="legal_router()" style="background-color: #212529; border: 1px solid #212529; margin-bottom: 3px; margin-left: 2px; display: inline;" type="button" class="btn btn-secondary">Legal</button>
+            </p>
+        </div>
+        <!--Footer End-->
+    </body>
+</html>

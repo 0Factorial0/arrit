@@ -1,0 +1,33 @@
+body{
+    background-color: #212529;
+}
+
+hr{
+    border: 2px solid #212529;
+}
+
+#main_content{
+    background-image: url("../branding/background/mate_gray_paper_texture_background_cropped_blurred.png");
+    border: 1px solid #212529;
+}
+
+#home_content{
+    background-image: url("../branding/background/mate_gray_paper_texture_background_cropped_blurred.png");
+    border: 1px solid #212529;
+}
+
+#login{
+    background-color: aliceblue;
+    border: 2px solid black;
+    width: 400px;
+    height: 400px;
+    border-radius: 10px;
+}
+
+#navbar_content{
+    margin-bottom: 20px;
+}
+
+#footer_content{
+    margin-top: 20px;
+}
